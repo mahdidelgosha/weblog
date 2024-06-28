@@ -1,0 +1,132 @@
+.form-container {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 .8rem;
+    background-color: #fff;
+    padding: 2rem;
+    z-index: 9999;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+@media (min-width: 768px) {
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+#overlay {
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #00000094;
+    z-index: 1;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #ccc;
+    color: #607D8B;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.field {
+    width: 100%;
+    outline: 0;
+    padding: .7rem 2.5rem;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-color: #f3f2f2;
+    font-size: .775rem;
+    transition: all .5s ease;
+    appearance: none;
+}
+.field:focus {
+    border-color: #607D8B;
+}
+.field:focus::placeholder {
+    color: transparent;
+}
+
+
+.field_icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #334155;
+}
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border-radius: 9999px;
+    color: #F5F5F5;
+    font-size: .775rem;
+    font-weight: 600;
+    transition: all .2s ease-in;
+}
+.btn-submit:hover {
+    background-color: #342cd6 !important;
+}
+
+
+.text {
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #607D8B;
+}
+
+.bg {
+    background-image: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#showPass {
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    color: #607D8B;
+}
+
+
+/* Dark Style */
+.dark .form-container {
+    background-color: #0f172a;
+}
+.dark .title {
+    color: #fff !important;
+}
+.dark .field {
+    background-color: rgb(30 41 59) !important;
+    color: #fff !important;
+}
+.dark .field::placeholder {
+    color: #fff;
+}
+.dark .field:focus::placeholder {
+    color: transparent;
+}
+.dark .field_icon {
+    color: #fff !important;
+}
+.dark .text {
+    color: #fff;
+}
+.dark .btn-submit {
+    background-color: rgb(23 38 62) !important;
+}
+.dark .btn-submit:hover {
+    background-color: rgb(31, 40, 54) !important;
+}

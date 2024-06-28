@@ -1,0 +1,46 @@
+/* 
+    -------------------- Categories --------------------
+*/
+.categories {
+    background-color: #fff;
+    border-radius: .4rem;
+    padding: 1rem;
+    transition: all .6s ease;
+}
+.categories__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: #546E7A;
+}
+
+
+.categories__list {
+    list-style: inside;
+    list-style-type: disc;
+    margin-top: 1.5rem;
+}
+
+.categories__item {
+    color: #475569;
+    margin-top: .5rem;
+
+}
+
+.categories__link {
+    font-size: .9rem;
+    color: #475569;
+    text-decoration: 0;
+}
+
+
+
+/* Dark Style */
+.dark .categories {
+    background-color: rgb(30 41 59) !important;
+}
+
+.dark .categories__title,
+.dark .categories__link {
+    color: #fff !important;
+}

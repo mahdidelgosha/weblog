@@ -1,0 +1,59 @@
+* {
+    font-family: "Vazir";
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ccc;
+    font-size: 100%;
+    transition: all .6s ease;
+    padding: 0 !important;
+}
+
+
+::selection {
+    background-color: #4f46e5;
+    color: #fff;
+}
+
+a {
+    text-decoration: 0 !important;
+}
+
+.container {
+    max-width: 1320px !important;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.btn-secondary {
+    font-size: .9rem !important;
+    font-weight: 600 !important;
+    padding: .5rem .8rem !important;
+}
+
+.btn {
+    border: 0 !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+
+
+
+/* Dark Style */
+.dark body {
+    background-color: rgb(51 65 85) !important;
+}
+

@@ -1,0 +1,82 @@
+/* 
+    -------------------- Posts --------------------
+*/
+.post {
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 1rem;
+    transition: all .6s ease;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.post:hover {
+    transform: translateY(-5px);
+}
+
+
+.post-container { max-width: 800px; }
+.post__title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: #455A64;
+}
+
+.post__desc {
+    font-size: .8rem;
+    color: #78909C;
+    font-weight: 400;
+    line-height: 25px;
+}
+.post__img {
+    width: 100%;
+}
+.post__img img {
+    transition: .5s;
+    border-radius: .5rem;
+    filter: grayscale(76%);
+    -webkit-filter: grayscale(76%);
+    -moz-filter: grayscale(76%);
+}
+.post__img img:hover,
+.post:hover .post__img img {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+.post__link {
+    color: #4f46e5;
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    text-decoration: 0;
+    margin-top: 1rem;
+}
+.posts__title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: #546E7A;
+}
+
+
+/* Dark Style */
+.dark .post {
+    background-color: rgb(30 41 59) !important;
+}
+
+.dark .post__title {
+    color: #fff !important;
+}
+.dark .post__desc {
+    color: #cbd5e1 !important;
+}
+.dark .posts__title {
+    color: #fff !important;
+}
+.dark .post__link {
+    color: #ccc !important;
+}
+.dark .post__link:hover {
+    color: #fff !important;
+}

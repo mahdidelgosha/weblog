@@ -1,0 +1,39 @@
+.content {
+    border-radius: .4rem;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #546E7A;
+    text-align: center;
+}
+.date,
+.author {
+    display: block;
+    color: #607D8B;
+    font-size: .8rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.desc {
+    margin: .4rem 0;
+    line-height: 30px;
+    color: #546E7A;
+    font-size: .7rem;
+}
+
+.post-container { max-width: 800px; }
+
+
+/* Dark Style */
+.dark .content {
+    background-color: rgb(30 41 59) !important;
+}
+.dark .title,
+.dark .desc {
+    color: #fff;
+}
